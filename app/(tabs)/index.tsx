@@ -1,11 +1,10 @@
 import React from 'react';
-import { StyleSheet, View, StatusBar } from 'react-native';
-import GrocifySplashScreen from './components/GrocifySplashScreen';
+import { StyleSheet, View } from 'react-native';
+import GrocifySplashScreen from '../../components/GrocifySplashScreen';
 
-export default function App() {
+export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <StatusBar barStyle="dark-content" backgroundColor="#ffffff" />
       <GrocifySplashScreen />
     </View>
   );

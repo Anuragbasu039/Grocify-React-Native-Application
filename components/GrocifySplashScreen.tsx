@@ -27,8 +27,9 @@ const styles = StyleSheet.create({
     logoText: {
         fontSize: 48,
         fontWeight: 'bold',
-        color: '#e53e3e',
+        color: '#fc0000ff',
         marginTop: 20,
-        fontFamily: 'System', // You can replace with custom font
+        fontFamily: 'System',
+        textAlign: 'center',
     },
 });
